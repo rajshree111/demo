@@ -1,0 +1,809 @@
+2019-06-22 12:47:31.275  INFO 1284 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication on IP-C6135DB0 with PID 1284 (D:\Users\sattu\Desktop\poc-back-end\demo\target\classes started by sattu in D:\Users\sattu\Desktop\poc-back-end\demo)
+2019-06-22 12:47:31.283  INFO 1284 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2019-06-22 12:47:31.339  INFO 1284 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-06-22 12:47:32.648  INFO 1284 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-22 12:47:32.681  INFO 1284 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.99 seconds (JVM running for 3.901)
+2019-06-22 12:48:43.872  INFO 7300 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication on IP-C6135DB0 with PID 7300 (D:\Users\sattu\Desktop\poc-back-end\demo\target\classes started by sattu in D:\Users\sattu\Desktop\poc-back-end\demo)
+2019-06-22 12:48:43.880  INFO 7300 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2019-06-22 12:48:43.925  INFO 7300 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-06-22 12:48:45.196  INFO 7300 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-22 12:48:45.228  INFO 7300 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 2.171 seconds (JVM running for 3.135)
+2019-06-22 12:53:57.590  INFO 1832 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication on IP-C6135DB0 with PID 1832 (D:\Users\sattu\Desktop\poc-back-end\demo\target\classes started by sattu in D:\Users\sattu\Desktop\poc-back-end\demo)
+2019-06-22 12:53:57.594  INFO 1832 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2019-06-22 12:53:57.682  INFO 1832 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-06-22 12:53:57.682  INFO 1832 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-06-22 12:53:59.193  INFO 1832 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-22 12:53:59.229  INFO 1832 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22ms. Found 0 repository interfaces.
+2019-06-22 12:53:59.768  INFO 1832 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a4afd90] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-22 12:54:00.202  INFO 1832 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2019-06-22 12:54:00.238  INFO 1832 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-22 12:54:00.238  INFO 1832 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-22 12:54:00.384  INFO 1832 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/gsp]    : Initializing Spring embedded WebApplicationContext
+2019-06-22 12:54:00.384  INFO 1832 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2702 ms
+2019-06-22 12:54:01.329  INFO 1832 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-06-22 12:54:01.331  WARN 1832 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2019-06-22 12:54:02.290  INFO 1832 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+2019-06-22 12:54:02.296  INFO 1832 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-06-22 12:54:02.374  INFO 1832 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-22 12:54:02.524  INFO 1832 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-06-22 12:54:02.526  INFO 1832 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-06-22 12:54:02.864  INFO 1832 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-22 12:54:03.122  INFO 1832 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.DerbyDialect
+2019-06-22 12:54:03.134  WARN 1832 --- [restartedMain] org.hibernate.dialect.DerbyDialect       : HHH000430: The DerbyDialect dialect has been deprecated; use one of the version-specific dialects instead
+2019-06-22 12:54:03.827  INFO 1832 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-22 12:54:03.880  INFO 1832 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-22 12:54:04.207  INFO 1832 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-22 12:54:04.257  WARN 1832 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-22 12:54:04.640  INFO 1832 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-06-22 12:54:04.778  INFO 1832 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path '/gsp'
+2019-06-22 12:54:04.781  INFO 1832 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 7.905 seconds (JVM running for 9.181)
+2019-06-22 12:56:27.796  INFO 1832 --- [http-nio-8070-exec-10] o.a.c.c.C.[Tomcat].[localhost].[/gsp]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-22 12:56:27.797  INFO 1832 --- [http-nio-8070-exec-10] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-22 12:56:27.808  INFO 1832 --- [http-nio-8070-exec-10] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2019-06-22 13:25:04.662  INFO 1832 --- [Thread-16] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-22 13:25:04.675  INFO 1832 --- [Thread-16] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-22 13:25:05.505  INFO 1832 --- [Thread-16] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': java.sql.SQLException: Directory derbydb cannot be removed.
+2019-06-22 13:25:05.505  INFO 1832 --- [Thread-16] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-06-22 13:25:05.505  INFO 1832 --- [Thread-16] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-06-22 13:25:05.994  INFO 1832 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication on IP-C6135DB0 with PID 1832 (D:\Users\sattu\Desktop\poc-back-end\demo\target\classes started by sattu in D:\Users\sattu\Desktop\poc-back-end\demo)
+2019-06-22 13:25:05.995  INFO 1832 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2019-06-22 13:25:06.474  INFO 1832 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-22 13:25:06.474  INFO 1832 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0ms. Found 0 repository interfaces.
+2019-06-22 13:25:06.568  INFO 1832 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a4afd90] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-22 13:25:06.724  INFO 1832 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2019-06-22 13:25:06.724  INFO 1832 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-22 13:25:06.724  INFO 1832 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-22 13:25:06.755  INFO 1832 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/gsp]    : Initializing Spring embedded WebApplicationContext
+2019-06-22 13:25:06.755  INFO 1832 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 760 ms
+2019-06-22 13:25:07.052  INFO 1832 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2019-06-22 13:25:07.058  WARN 1832 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2019-06-22 13:25:07.083  INFO 1832 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+2019-06-22 13:25:07.083  INFO 1832 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2019-06-22 13:25:07.099  INFO 1832 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-22 13:25:07.099  INFO 1832 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.DerbyDialect
+2019-06-22 13:25:07.115  WARN 1832 --- [restartedMain] org.hibernate.dialect.DerbyDialect       : HHH000430: The DerbyDialect dialect has been deprecated; use one of the version-specific dialects instead
+2019-06-22 13:25:07.177  INFO 1832 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-22 13:25:07.193  INFO 1832 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-22 13:25:07.302  INFO 1832 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-22 13:25:07.318  WARN 1832 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-22 13:25:07.490  INFO 1832 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-06-22 13:25:07.537  INFO 1832 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path '/gsp'
+2019-06-22 13:25:07.537  INFO 1832 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.61 seconds (JVM running for 1871.945)
+2019-06-22 13:25:07.537  INFO 1832 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-06-22 13:25:33.317  INFO 1832 --- [Thread-31] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-22 13:25:33.326  INFO 1832 --- [Thread-31] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-22 13:25:33.864  INFO 1832 --- [Thread-31] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': java.sql.SQLException: Directory derbydb cannot be removed.
+2019-06-22 13:25:33.864  INFO 1832 --- [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2019-06-22 13:25:33.864  INFO 1832 --- [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2019-06-22 13:25:34.177  INFO 1832 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication on IP-C6135DB0 with PID 1832 (D:\Users\sattu\Desktop\poc-back-end\demo\target\classes started by sattu in D:\Users\sattu\Desktop\poc-back-end\demo)
+2019-06-22 13:25:34.177  INFO 1832 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2019-06-22 13:25:34.520  INFO 1832 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-22 13:25:34.526  INFO 1832 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2019-06-22 13:25:34.583  INFO 1832 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a4afd90] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-22 13:25:34.692  INFO 1832 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2019-06-22 13:25:34.692  INFO 1832 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-22 13:25:34.692  INFO 1832 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-22 13:25:34.708  INFO 1832 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/gsp]    : Initializing Spring embedded WebApplicationContext
+2019-06-22 13:25:34.708  INFO 1832 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 531 ms
+2019-06-22 13:25:34.895  INFO 1832 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2019-06-22 13:25:34.895  WARN 1832 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2019-06-22 13:25:34.927  INFO 1832 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-3 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+2019-06-22 13:25:34.927  INFO 1832 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2019-06-22 13:25:34.942  INFO 1832 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-22 13:25:34.958  INFO 1832 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.DerbyDialect
+2019-06-22 13:25:34.958  WARN 1832 --- [restartedMain] org.hibernate.dialect.DerbyDialect       : HHH000430: The DerbyDialect dialect has been deprecated; use one of the version-specific dialects instead
+2019-06-22 13:25:35.005  INFO 1832 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-22 13:25:35.020  INFO 1832 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-22 13:25:35.114  INFO 1832 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-22 13:25:35.114  WARN 1832 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-22 13:25:35.333  INFO 1832 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-06-22 13:25:35.380  INFO 1832 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path '/gsp'
+2019-06-22 13:25:35.380  INFO 1832 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.25 seconds (JVM running for 1899.786)
+2019-06-22 13:25:35.380  INFO 1832 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-06-22 13:25:48.942  INFO 1832 --- [Thread-48] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-22 13:25:48.951  INFO 1832 --- [Thread-48] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-22 13:25:49.458  INFO 1832 --- [Thread-48] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': java.sql.SQLException: Directory derbydb cannot be removed.
+2019-06-22 13:25:49.458  INFO 1832 --- [Thread-48] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2019-06-22 13:25:49.458  INFO 1832 --- [Thread-48] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2019-06-22 13:25:49.708  INFO 1832 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication on IP-C6135DB0 with PID 1832 (D:\Users\sattu\Desktop\poc-back-end\demo\target\classes started by sattu in D:\Users\sattu\Desktop\poc-back-end\demo)
+2019-06-22 13:25:49.708  INFO 1832 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2019-06-22 13:25:50.036  INFO 1832 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-22 13:25:50.051  INFO 1832 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2019-06-22 13:25:50.098  INFO 1832 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a4afd90] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-22 13:25:50.301  INFO 1832 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2019-06-22 13:25:50.301  INFO 1832 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-22 13:25:50.301  INFO 1832 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-22 13:25:50.333  INFO 1832 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/gsp]    : Initializing Spring embedded WebApplicationContext
+2019-06-22 13:25:50.333  INFO 1832 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 625 ms
+2019-06-22 13:25:50.536  INFO 1832 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2019-06-22 13:25:50.536  WARN 1832 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2019-06-22 13:25:50.676  INFO 1832 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-4 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+2019-06-22 13:25:50.676  INFO 1832 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2019-06-22 13:25:50.692  INFO 1832 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-22 13:25:50.708  INFO 1832 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.DerbyDialect
+2019-06-22 13:25:50.708  WARN 1832 --- [restartedMain] org.hibernate.dialect.DerbyDialect       : HHH000430: The DerbyDialect dialect has been deprecated; use one of the version-specific dialects instead
+2019-06-22 13:25:50.755  INFO 1832 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-22 13:25:50.770  INFO 1832 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-22 13:25:50.864  INFO 1832 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-22 13:25:50.864  WARN 1832 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-22 13:25:51.005  INFO 1832 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-06-22 13:25:51.036  INFO 1832 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path '/gsp'
+2019-06-22 13:25:51.036  INFO 1832 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.36 seconds (JVM running for 1915.448)
+2019-06-22 13:25:51.051  INFO 1832 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-06-22 13:26:03.598  INFO 1832 --- [Thread-65] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-22 13:26:03.606  INFO 1832 --- [Thread-65] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-22 13:26:04.129  INFO 1832 --- [Thread-65] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': java.sql.SQLException: Directory derbydb cannot be removed.
+2019-06-22 13:26:04.129  INFO 1832 --- [Thread-65] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2019-06-22 13:26:04.129  INFO 1832 --- [Thread-65] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2019-06-22 13:26:04.426  INFO 1832 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication on IP-C6135DB0 with PID 1832 (D:\Users\sattu\Desktop\poc-back-end\demo\target\classes started by sattu in D:\Users\sattu\Desktop\poc-back-end\demo)
+2019-06-22 13:26:04.426  INFO 1832 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2019-06-22 13:26:04.786  INFO 1832 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-22 13:26:04.788  INFO 1832 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2ms. Found 0 repository interfaces.
+2019-06-22 13:26:04.833  INFO 1832 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a4afd90] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-22 13:26:04.942  INFO 1832 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2019-06-22 13:26:04.942  INFO 1832 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-22 13:26:04.942  INFO 1832 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-22 13:26:04.958  INFO 1832 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/gsp]    : Initializing Spring embedded WebApplicationContext
+2019-06-22 13:26:04.958  INFO 1832 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 532 ms
+2019-06-22 13:26:05.129  INFO 1832 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2019-06-22 13:26:05.129  WARN 1832 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2019-06-22 13:26:05.161  INFO 1832 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-5 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+2019-06-22 13:26:05.161  INFO 1832 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2019-06-22 13:26:05.176  INFO 1832 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-22 13:26:05.176  INFO 1832 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.DerbyDialect
+2019-06-22 13:26:05.176  WARN 1832 --- [restartedMain] org.hibernate.dialect.DerbyDialect       : HHH000430: The DerbyDialect dialect has been deprecated; use one of the version-specific dialects instead
+2019-06-22 13:26:05.223  INFO 1832 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-22 13:26:05.239  INFO 1832 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-22 13:26:05.332  INFO 1832 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-22 13:26:05.332  WARN 1832 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-22 13:26:05.473  INFO 1832 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-06-22 13:26:05.504  INFO 1832 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path '/gsp'
+2019-06-22 13:26:05.504  INFO 1832 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.109 seconds (JVM running for 1929.918)
+2019-06-22 13:26:05.520  INFO 1832 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-06-22 13:26:26.207  INFO 1832 --- [Thread-82] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-22 13:26:26.217  INFO 1832 --- [Thread-82] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-22 13:26:26.723  INFO 1832 --- [Thread-82] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': java.sql.SQLException: Directory derbydb cannot be removed.
+2019-06-22 13:26:26.723  INFO 1832 --- [Thread-82] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2019-06-22 13:26:26.723  INFO 1832 --- [Thread-82] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2019-06-22 13:26:26.973  INFO 1832 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication on IP-C6135DB0 with PID 1832 (D:\Users\sattu\Desktop\poc-back-end\demo\target\classes started by sattu in D:\Users\sattu\Desktop\poc-back-end\demo)
+2019-06-22 13:26:26.973  INFO 1832 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2019-06-22 13:26:27.332  INFO 1832 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-22 13:26:27.335  INFO 1832 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1ms. Found 0 repository interfaces.
+2019-06-22 13:26:27.379  INFO 1832 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a4afd90] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-22 13:26:27.473  INFO 1832 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2019-06-22 13:26:27.488  INFO 1832 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-22 13:26:27.488  INFO 1832 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-22 13:26:27.488  INFO 1832 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/gsp]    : Initializing Spring embedded WebApplicationContext
+2019-06-22 13:26:27.488  INFO 1832 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 515 ms
+2019-06-22 13:26:27.676  INFO 1832 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2019-06-22 13:26:27.676  WARN 1832 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2019-06-22 13:26:27.707  INFO 1832 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-6 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+2019-06-22 13:26:27.707  INFO 1832 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2019-06-22 13:26:27.723  INFO 1832 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-22 13:26:27.723  INFO 1832 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.DerbyDialect
+2019-06-22 13:26:27.723  WARN 1832 --- [restartedMain] org.hibernate.dialect.DerbyDialect       : HHH000430: The DerbyDialect dialect has been deprecated; use one of the version-specific dialects instead
+2019-06-22 13:26:27.848  INFO 1832 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-22 13:26:27.863  INFO 1832 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-22 13:26:27.988  INFO 1832 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-22 13:26:27.988  WARN 1832 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-22 13:26:28.113  INFO 1832 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-06-22 13:26:28.160  INFO 1832 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path '/gsp'
+2019-06-22 13:26:28.160  INFO 1832 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.234 seconds (JVM running for 1952.567)
+2019-06-22 13:26:28.160  INFO 1832 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-06-22 13:29:51.141  INFO 1832 --- [Thread-99] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-22 13:29:51.149  INFO 1832 --- [Thread-99] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-22 13:29:51.672  INFO 1832 --- [Thread-99] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': java.sql.SQLException: Directory derbydb cannot be removed.
+2019-06-22 13:29:51.672  INFO 1832 --- [Thread-99] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2019-06-22 13:29:51.672  INFO 1832 --- [Thread-99] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2019-06-22 13:29:51.954  INFO 1832 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication on IP-C6135DB0 with PID 1832 (D:\Users\sattu\Desktop\poc-back-end\demo\target\classes started by sattu in D:\Users\sattu\Desktop\poc-back-end\demo)
+2019-06-22 13:29:51.954  INFO 1832 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2019-06-22 13:29:52.282  INFO 1832 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-22 13:29:52.296  INFO 1832 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1ms. Found 0 repository interfaces.
+2019-06-22 13:29:52.344  INFO 1832 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a4afd90] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-22 13:29:52.438  INFO 1832 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2019-06-22 13:29:52.438  INFO 1832 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-22 13:29:52.438  INFO 1832 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-22 13:29:52.454  INFO 1832 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/gsp]    : Initializing Spring embedded WebApplicationContext
+2019-06-22 13:29:52.454  INFO 1832 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 500 ms
+2019-06-22 13:29:52.641  INFO 1832 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2019-06-22 13:29:52.641  WARN 1832 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2019-06-22 13:29:52.657  INFO 1832 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-7 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+2019-06-22 13:29:52.657  INFO 1832 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2019-06-22 13:29:52.672  INFO 1832 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-22 13:29:52.672  INFO 1832 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.DerbyDialect
+2019-06-22 13:29:52.672  WARN 1832 --- [restartedMain] org.hibernate.dialect.DerbyDialect       : HHH000430: The DerbyDialect dialect has been deprecated; use one of the version-specific dialects instead
+2019-06-22 13:29:52.719  INFO 1832 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-22 13:29:52.735  INFO 1832 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-22 13:29:52.813  INFO 1832 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-22 13:29:52.813  WARN 1832 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-22 13:29:52.985  INFO 1832 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-06-22 13:29:53.079  INFO 1832 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path '/gsp'
+2019-06-22 13:29:53.079  INFO 1832 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.157 seconds (JVM running for 2157.483)
+2019-06-22 13:29:53.079  INFO 1832 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-06-22 13:30:13.188  INFO 1832 --- [Thread-116] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-22 13:30:13.188  INFO 1832 --- [Thread-116] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-22 13:30:13.750  INFO 1832 --- [Thread-116] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': java.sql.SQLException: Directory derbydb cannot be removed.
+2019-06-22 13:30:13.750  INFO 1832 --- [Thread-116] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2019-06-22 13:30:13.750  INFO 1832 --- [Thread-116] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2019-06-22 13:30:14.156  INFO 1832 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication on IP-C6135DB0 with PID 1832 (D:\Users\sattu\Desktop\poc-back-end\demo\target\classes started by sattu in D:\Users\sattu\Desktop\poc-back-end\demo)
+2019-06-22 13:30:14.156  INFO 1832 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2019-06-22 13:30:14.531  INFO 1832 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-22 13:30:14.531  INFO 1832 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0ms. Found 0 repository interfaces.
+2019-06-22 13:30:14.610  INFO 1832 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a4afd90] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-22 13:30:14.703  INFO 1832 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2019-06-22 13:30:14.735  INFO 1832 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-22 13:30:14.735  INFO 1832 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-22 13:30:14.750  INFO 1832 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/gsp]    : Initializing Spring embedded WebApplicationContext
+2019-06-22 13:30:14.750  INFO 1832 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 594 ms
+2019-06-22 13:30:14.985  INFO 1832 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2019-06-22 13:30:14.985  WARN 1832 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2019-06-22 13:30:15.016  INFO 1832 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-8 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+2019-06-22 13:30:15.016  INFO 1832 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2019-06-22 13:30:15.016  INFO 1832 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-22 13:30:15.031  INFO 1832 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.DerbyDialect
+2019-06-22 13:30:15.031  WARN 1832 --- [restartedMain] org.hibernate.dialect.DerbyDialect       : HHH000430: The DerbyDialect dialect has been deprecated; use one of the version-specific dialects instead
+2019-06-22 13:30:15.063  INFO 1832 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-22 13:30:15.094  INFO 1832 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-22 13:30:15.188  INFO 1832 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-22 13:30:15.188  WARN 1832 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-22 13:30:15.344  INFO 1832 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-06-22 13:30:15.375  INFO 1832 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path '/gsp'
+2019-06-22 13:30:15.375  INFO 1832 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.25 seconds (JVM running for 2179.787)
+2019-06-22 13:30:15.391  INFO 1832 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-06-22 13:30:21.828  INFO 1832 --- [Thread-133] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-22 13:30:21.835  INFO 1832 --- [Thread-133] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-22 13:30:22.360  INFO 1832 --- [Thread-133] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': java.sql.SQLException: Directory derbydb cannot be removed.
+2019-06-22 13:30:22.360  INFO 1832 --- [Thread-133] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2019-06-22 13:30:22.360  INFO 1832 --- [Thread-133] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2019-06-22 13:30:22.688  INFO 1832 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication on IP-C6135DB0 with PID 1832 (D:\Users\sattu\Desktop\poc-back-end\demo\target\classes started by sattu in D:\Users\sattu\Desktop\poc-back-end\demo)
+2019-06-22 13:30:22.688  INFO 1832 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2019-06-22 13:30:23.031  INFO 1832 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-22 13:30:23.042  INFO 1832 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2019-06-22 13:30:23.094  INFO 1832 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a4afd90] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-22 13:30:23.188  INFO 1832 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2019-06-22 13:30:23.188  INFO 1832 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-22 13:30:23.188  INFO 1832 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-22 13:30:23.203  INFO 1832 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/gsp]    : Initializing Spring embedded WebApplicationContext
+2019-06-22 13:30:23.203  INFO 1832 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 515 ms
+2019-06-22 13:30:23.375  INFO 1832 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
+2019-06-22 13:30:23.375  WARN 1832 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2019-06-22 13:30:23.406  INFO 1832 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-9 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+2019-06-22 13:30:23.406  INFO 1832 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
+2019-06-22 13:30:23.406  INFO 1832 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-22 13:30:23.422  INFO 1832 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.DerbyDialect
+2019-06-22 13:30:23.422  WARN 1832 --- [restartedMain] org.hibernate.dialect.DerbyDialect       : HHH000430: The DerbyDialect dialect has been deprecated; use one of the version-specific dialects instead
+2019-06-22 13:30:23.469  INFO 1832 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-22 13:30:23.484  INFO 1832 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-22 13:30:23.563  INFO 1832 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-22 13:30:23.578  WARN 1832 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-22 13:30:23.688  INFO 1832 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-06-22 13:30:23.734  INFO 1832 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path '/gsp'
+2019-06-22 13:30:23.734  INFO 1832 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.078 seconds (JVM running for 2188.139)
+2019-06-22 13:30:23.734  INFO 1832 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-06-22 13:32:21.076  INFO 1832 --- [Thread-150] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-22 13:32:21.076  INFO 1832 --- [Thread-150] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-22 13:32:22.061  INFO 1832 --- [Thread-150] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': java.sql.SQLException: Directory derbydb cannot be removed.
+2019-06-22 13:32:22.061  INFO 1832 --- [Thread-150] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown initiated...
+2019-06-22 13:32:22.061  INFO 1832 --- [Thread-150] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown completed.
+2019-06-22 13:32:22.412  INFO 1832 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication on IP-C6135DB0 with PID 1832 (D:\Users\sattu\Desktop\poc-back-end\demo\target\classes started by sattu in D:\Users\sattu\Desktop\poc-back-end\demo)
+2019-06-22 13:32:22.412  INFO 1832 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2019-06-22 13:32:22.764  INFO 1832 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-22 13:32:22.764  INFO 1832 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0ms. Found 0 repository interfaces.
+2019-06-22 13:32:22.826  INFO 1832 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a4afd90] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-22 13:32:22.920  INFO 1832 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2019-06-22 13:32:22.920  INFO 1832 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-22 13:32:22.920  INFO 1832 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-22 13:32:22.936  INFO 1832 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/gsp]    : Initializing Spring embedded WebApplicationContext
+2019-06-22 13:32:22.936  INFO 1832 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 524 ms
+2019-06-22 13:32:23.107  INFO 1832 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Starting...
+2019-06-22 13:32:23.123  WARN 1832 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2019-06-22 13:32:23.146  INFO 1832 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-10 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+2019-06-22 13:32:23.146  INFO 1832 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Start completed.
+2019-06-22 13:32:23.158  INFO 1832 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-22 13:32:23.167  INFO 1832 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.DerbyDialect
+2019-06-22 13:32:23.167  WARN 1832 --- [restartedMain] org.hibernate.dialect.DerbyDialect       : HHH000430: The DerbyDialect dialect has been deprecated; use one of the version-specific dialects instead
+2019-06-22 13:32:23.238  INFO 1832 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-22 13:32:23.255  INFO 1832 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-22 13:32:23.352  INFO 1832 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-22 13:32:23.362  WARN 1832 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-22 13:32:23.517  INFO 1832 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-06-22 13:32:23.573  INFO 1832 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path '/gsp'
+2019-06-22 13:32:23.574  INFO 1832 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.19 seconds (JVM running for 2307.973)
+2019-06-22 13:32:23.578  INFO 1832 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-06-22 13:37:31.321  INFO 1832 --- [Thread-167] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-22 13:37:31.321  INFO 1832 --- [Thread-167] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-22 13:37:31.868  INFO 1832 --- [Thread-167] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': java.sql.SQLException: Directory derbydb cannot be removed.
+2019-06-22 13:37:31.868  INFO 1832 --- [Thread-167] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown initiated...
+2019-06-22 13:37:31.868  INFO 1832 --- [Thread-167] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown completed.
+2019-06-22 13:37:32.196  INFO 1832 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication on IP-C6135DB0 with PID 1832 (D:\Users\sattu\Desktop\poc-back-end\demo\target\classes started by sattu in D:\Users\sattu\Desktop\poc-back-end\demo)
+2019-06-22 13:37:32.196  INFO 1832 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2019-06-22 13:37:32.524  INFO 1832 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-22 13:37:32.539  INFO 1832 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2019-06-22 13:37:32.587  INFO 1832 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a4afd90] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-22 13:37:32.680  INFO 1832 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2019-06-22 13:37:32.680  INFO 1832 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-22 13:37:32.680  INFO 1832 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-22 13:37:32.696  INFO 1832 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/gsp]    : Initializing Spring embedded WebApplicationContext
+2019-06-22 13:37:32.696  INFO 1832 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 500 ms
+2019-06-22 13:37:32.884  INFO 1832 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Starting...
+2019-06-22 13:37:32.884  WARN 1832 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2019-06-22 13:37:32.915  INFO 1832 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-11 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+2019-06-22 13:37:32.915  INFO 1832 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Start completed.
+2019-06-22 13:37:32.915  INFO 1832 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-22 13:37:32.931  INFO 1832 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.DerbyDialect
+2019-06-22 13:37:32.931  WARN 1832 --- [restartedMain] org.hibernate.dialect.DerbyDialect       : HHH000430: The DerbyDialect dialect has been deprecated; use one of the version-specific dialects instead
+2019-06-22 13:37:32.977  INFO 1832 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-22 13:37:32.993  INFO 1832 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-22 13:37:33.071  INFO 1832 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-22 13:37:33.087  WARN 1832 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-22 13:37:33.227  INFO 1832 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-06-22 13:37:33.274  INFO 1832 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path '/gsp'
+2019-06-22 13:37:33.274  INFO 1832 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.109 seconds (JVM running for 2617.677)
+2019-06-22 13:37:33.274  INFO 1832 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-06-22 13:40:06.053  INFO 1832 --- [Thread-184] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-22 13:40:06.060  INFO 1832 --- [Thread-184] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-22 13:40:06.568  INFO 1832 --- [Thread-184] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': java.sql.SQLException: Directory derbydb cannot be removed.
+2019-06-22 13:40:06.568  INFO 1832 --- [Thread-184] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown initiated...
+2019-06-22 13:40:06.568  INFO 1832 --- [Thread-184] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown completed.
+2019-06-22 13:40:06.928  INFO 1832 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication on IP-C6135DB0 with PID 1832 (D:\Users\sattu\Desktop\poc-back-end\demo\target\classes started by sattu in D:\Users\sattu\Desktop\poc-back-end\demo)
+2019-06-22 13:40:06.928  INFO 1832 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2019-06-22 13:40:07.256  INFO 1832 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-22 13:40:07.264  INFO 1832 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2019-06-22 13:40:07.303  INFO 1832 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a4afd90] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-22 13:40:07.397  INFO 1832 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2019-06-22 13:40:07.397  INFO 1832 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-22 13:40:07.397  INFO 1832 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-22 13:40:07.412  INFO 1832 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/gsp]    : Initializing Spring embedded WebApplicationContext
+2019-06-22 13:40:07.412  INFO 1832 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 484 ms
+2019-06-22 13:40:07.600  INFO 1832 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Starting...
+2019-06-22 13:40:07.600  WARN 1832 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2019-06-22 13:40:07.631  INFO 1832 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-12 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+2019-06-22 13:40:07.631  INFO 1832 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Start completed.
+2019-06-22 13:40:07.631  INFO 1832 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-22 13:40:07.647  INFO 1832 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.DerbyDialect
+2019-06-22 13:40:07.647  WARN 1832 --- [restartedMain] org.hibernate.dialect.DerbyDialect       : HHH000430: The DerbyDialect dialect has been deprecated; use one of the version-specific dialects instead
+2019-06-22 13:40:07.678  INFO 1832 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-22 13:40:07.709  INFO 1832 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-22 13:40:07.787  INFO 1832 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-22 13:40:07.803  WARN 1832 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-22 13:40:07.928  INFO 1832 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-06-22 13:40:07.975  INFO 1832 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path '/gsp'
+2019-06-22 13:40:07.975  INFO 1832 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.078 seconds (JVM running for 2772.387)
+2019-06-22 13:40:07.990  INFO 1832 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-06-22 14:03:24.498  INFO 1832 --- [Thread-201] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-22 14:03:24.514  INFO 1832 --- [Thread-201] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-22 14:03:25.092  INFO 1832 --- [Thread-201] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': java.sql.SQLException: Directory derbydb cannot be removed.
+2019-06-22 14:03:25.092  INFO 1832 --- [Thread-201] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown initiated...
+2019-06-22 14:03:25.108  INFO 1832 --- [Thread-201] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown completed.
+2019-06-22 14:03:26.623  INFO 1832 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication on IP-C6135DB0 with PID 1832 (D:\Users\sattu\Desktop\poc-back-end\demo\target\classes started by sattu in D:\Users\sattu\Desktop\poc-back-end\demo)
+2019-06-22 14:03:26.623  INFO 1832 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2019-06-22 14:03:27.655  INFO 1832 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-22 14:03:27.671  INFO 1832 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2ms. Found 0 repository interfaces.
+2019-06-22 14:03:27.811  INFO 1832 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a4afd90] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-22 14:03:28.483  INFO 1832 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2019-06-22 14:03:28.483  INFO 1832 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-22 14:03:28.483  INFO 1832 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-22 14:03:28.514  INFO 1832 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/gsp]    : Initializing Spring embedded WebApplicationContext
+2019-06-22 14:03:28.514  INFO 1832 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1891 ms
+2019-06-22 14:03:28.795  INFO 1832 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Starting...
+2019-06-22 14:03:28.811  WARN 1832 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2019-06-22 14:03:28.889  INFO 1832 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-13 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+2019-06-22 14:03:28.889  INFO 1832 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Start completed.
+2019-06-22 14:03:28.920  INFO 1832 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-22 14:03:28.951  INFO 1832 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.DerbyDialect
+2019-06-22 14:03:28.951  WARN 1832 --- [restartedMain] org.hibernate.dialect.DerbyDialect       : HHH000430: The DerbyDialect dialect has been deprecated; use one of the version-specific dialects instead
+2019-06-22 14:03:29.108  INFO 1832 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-22 14:03:29.139  INFO 1832 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-22 14:03:29.514  INFO 1832 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-22 14:03:29.529  WARN 1832 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-22 14:03:30.483  INFO 1832 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-06-22 14:03:30.608  INFO 1832 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path '/gsp'
+2019-06-22 14:03:30.608  INFO 1832 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 4.078 seconds (JVM running for 4175.01)
+2019-06-22 14:03:30.639  INFO 1832 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-06-22 14:03:32.358  INFO 1832 --- [Thread-218] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-22 14:03:32.373  INFO 1832 --- [Thread-218] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-22 14:03:32.904  INFO 1832 --- [Thread-218] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': java.sql.SQLException: Directory derbydb cannot be removed.
+2019-06-22 14:03:32.904  INFO 1832 --- [Thread-218] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Shutdown initiated...
+2019-06-22 14:03:32.904  INFO 1832 --- [Thread-218] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Shutdown completed.
+2019-06-22 14:03:33.476  INFO 1832 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication on IP-C6135DB0 with PID 1832 (D:\Users\sattu\Desktop\poc-back-end\demo\target\classes started by sattu in D:\Users\sattu\Desktop\poc-back-end\demo)
+2019-06-22 14:03:33.476  INFO 1832 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2019-06-22 14:03:33.826  INFO 1832 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-22 14:03:33.826  INFO 1832 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0ms. Found 0 repository interfaces.
+2019-06-22 14:03:33.873  INFO 1832 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a4afd90] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-22 14:03:34.014  INFO 1832 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2019-06-22 14:03:34.014  INFO 1832 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-22 14:03:34.014  INFO 1832 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-22 14:03:34.014  INFO 1832 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/gsp]    : Initializing Spring embedded WebApplicationContext
+2019-06-22 14:03:34.014  INFO 1832 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 538 ms
+2019-06-22 14:03:34.232  INFO 1832 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Starting...
+2019-06-22 14:03:34.232  WARN 1832 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2019-06-22 14:03:34.264  INFO 1832 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-14 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+2019-06-22 14:03:34.264  INFO 1832 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Start completed.
+2019-06-22 14:03:34.279  INFO 1832 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-22 14:03:34.279  INFO 1832 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.DerbyDialect
+2019-06-22 14:03:34.279  WARN 1832 --- [restartedMain] org.hibernate.dialect.DerbyDialect       : HHH000430: The DerbyDialect dialect has been deprecated; use one of the version-specific dialects instead
+2019-06-22 14:03:34.357  INFO 1832 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-22 14:03:34.373  INFO 1832 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-22 14:03:34.514  INFO 1832 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-22 14:03:34.518  WARN 1832 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-22 14:03:34.639  INFO 1832 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-06-22 14:03:34.686  INFO 1832 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path '/gsp'
+2019-06-22 14:03:34.686  INFO 1832 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.235 seconds (JVM running for 4179.097)
+2019-06-22 14:03:34.701  INFO 1832 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-06-22 14:08:03.261  INFO 1832 --- [http-nio-8070-exec-9] o.a.c.c.C.[Tomcat].[localhost].[/gsp]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-22 14:08:03.263  INFO 1832 --- [http-nio-8070-exec-9] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-22 14:08:03.273  INFO 1832 --- [http-nio-8070-exec-9] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2019-06-22 14:11:33.082  INFO 1832 --- [Thread-235] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-22 14:11:33.082  INFO 1832 --- [Thread-235] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-22 14:11:33.629  INFO 1832 --- [Thread-235] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': java.sql.SQLException: Directory derbydb cannot be removed.
+2019-06-22 14:11:33.629  INFO 1832 --- [Thread-235] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Shutdown initiated...
+2019-06-22 14:11:33.629  INFO 1832 --- [Thread-235] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Shutdown completed.
+2019-06-22 14:11:34.270  INFO 1832 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication on IP-C6135DB0 with PID 1832 (D:\Users\sattu\Desktop\poc-back-end\demo\target\classes started by sattu in D:\Users\sattu\Desktop\poc-back-end\demo)
+2019-06-22 14:11:34.270  INFO 1832 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2019-06-22 14:11:34.941  INFO 1832 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-22 14:11:34.948  INFO 1832 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2019-06-22 14:11:35.035  INFO 1832 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a4afd90] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-22 14:11:35.316  INFO 1832 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2019-06-22 14:11:35.316  INFO 1832 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-22 14:11:35.316  INFO 1832 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-22 14:11:35.332  INFO 1832 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/gsp]    : Initializing Spring embedded WebApplicationContext
+2019-06-22 14:11:35.332  INFO 1832 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1062 ms
+2019-06-22 14:11:35.520  INFO 1832 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Starting...
+2019-06-22 14:11:35.520  WARN 1832 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2019-06-22 14:11:35.566  INFO 1832 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-15 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+2019-06-22 14:11:35.566  INFO 1832 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Start completed.
+2019-06-22 14:11:35.582  INFO 1832 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-22 14:11:35.582  INFO 1832 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.DerbyDialect
+2019-06-22 14:11:35.582  WARN 1832 --- [restartedMain] org.hibernate.dialect.DerbyDialect       : HHH000430: The DerbyDialect dialect has been deprecated; use one of the version-specific dialects instead
+2019-06-22 14:11:35.723  INFO 1832 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-22 14:11:35.738  INFO 1832 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-22 14:11:35.832  INFO 1832 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-22 14:11:35.848  WARN 1832 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-22 14:11:36.020  INFO 1832 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-06-22 14:11:36.051  INFO 1832 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path '/gsp'
+2019-06-22 14:11:36.051  INFO 1832 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.828 seconds (JVM running for 4660.46)
+2019-06-22 14:11:36.051  INFO 1832 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-06-22 14:11:36.816  INFO 1832 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-06-22 14:11:36.816  INFO 1832 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-22 14:11:36.816  INFO 1832 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-22 14:11:37.348  INFO 1832 --- [RMI TCP Connection(2)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': java.sql.SQLException: Directory derbydb cannot be removed.
+2019-06-22 14:11:37.351  INFO 1832 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Shutdown initiated...
+2019-06-22 14:11:37.352  INFO 1832 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Shutdown completed.
+2019-06-22 14:12:00.832  INFO 7028 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication on IP-C6135DB0 with PID 7028 (D:\Users\sattu\Desktop\poc-back-end\demo\target\classes started by sattu in D:\Users\sattu\Desktop\poc-back-end\demo)
+2019-06-22 14:12:00.847  INFO 7028 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2019-06-22 14:12:01.003  INFO 7028 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-06-22 14:12:01.003  INFO 7028 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-06-22 14:12:02.648  INFO 7028 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-22 14:12:02.691  INFO 7028 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33ms. Found 0 repository interfaces.
+2019-06-22 14:12:03.285  INFO 7028 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6d2d9fcc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-22 14:12:03.800  INFO 7028 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2019-06-22 14:12:03.832  INFO 7028 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-22 14:12:03.832  INFO 7028 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-22 14:12:04.010  INFO 7028 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/gsp]    : Initializing Spring embedded WebApplicationContext
+2019-06-22 14:12:04.010  INFO 7028 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2994 ms
+2019-06-22 14:12:04.910  INFO 7028 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-06-22 14:12:04.918  WARN 7028 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2019-06-22 14:12:05.207  INFO 7028 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+2019-06-22 14:12:05.207  INFO 7028 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-06-22 14:12:05.300  INFO 7028 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-22 14:12:05.472  INFO 7028 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2019-06-22 14:12:05.474  INFO 7028 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-06-22 14:12:05.847  INFO 7028 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-22 14:12:06.113  INFO 7028 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.DerbyDialect
+2019-06-22 14:12:06.128  WARN 7028 --- [restartedMain] org.hibernate.dialect.DerbyDialect       : HHH000430: The DerbyDialect dialect has been deprecated; use one of the version-specific dialects instead
+2019-06-22 14:12:06.660  INFO 7028 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-22 14:12:06.722  INFO 7028 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-22 14:12:07.003  INFO 7028 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-22 14:12:07.066  WARN 7028 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-22 14:12:07.456  INFO 7028 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-06-22 14:12:07.581  INFO 7028 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path '/gsp'
+2019-06-22 14:12:07.597  INFO 7028 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 7.656 seconds (JVM running for 9.427)
+2019-06-22 14:13:00.592  INFO 7028 --- [http-nio-8070-exec-9] o.a.c.c.C.[Tomcat].[localhost].[/gsp]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-22 14:13:00.592  INFO 7028 --- [http-nio-8070-exec-9] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-06-22 14:13:00.605  INFO 7028 --- [http-nio-8070-exec-9] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2019-06-22 15:10:07.039  INFO 7028 --- [Thread-16] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-22 15:10:07.086  INFO 7028 --- [Thread-16] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-22 15:10:07.867  INFO 7028 --- [Thread-16] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': java.sql.SQLException: Directory derbydb cannot be removed.
+2019-06-22 15:10:07.867  INFO 7028 --- [Thread-16] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-06-22 15:10:07.883  INFO 7028 --- [Thread-16] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-06-22 15:10:09.158  INFO 7028 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication on IP-C6135DB0 with PID 7028 (D:\Users\sattu\Desktop\poc-back-end\demo\target\classes started by sattu in D:\Users\sattu\Desktop\poc-back-end\demo)
+2019-06-22 15:10:09.164  INFO 7028 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2019-06-22 15:10:10.086  INFO 7028 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-22 15:10:10.086  INFO 7028 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0ms. Found 0 repository interfaces.
+2019-06-22 15:10:10.195  INFO 7028 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6d2d9fcc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-22 15:10:10.633  INFO 7028 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2019-06-22 15:10:10.633  INFO 7028 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-22 15:10:10.633  INFO 7028 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-22 15:10:10.679  INFO 7028 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/gsp]    : Initializing Spring embedded WebApplicationContext
+2019-06-22 15:10:10.679  INFO 7028 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1515 ms
+2019-06-22 15:10:11.023  INFO 7028 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2019-06-22 15:10:11.023  WARN 7028 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2019-06-22 15:10:11.086  INFO 7028 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-2 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+2019-06-22 15:10:11.086  INFO 7028 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2019-06-22 15:10:11.101  INFO 7028 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-22 15:10:11.117  INFO 7028 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.DerbyDialect
+2019-06-22 15:10:11.117  WARN 7028 --- [restartedMain] org.hibernate.dialect.DerbyDialect       : HHH000430: The DerbyDialect dialect has been deprecated; use one of the version-specific dialects instead
+2019-06-22 15:10:11.195  INFO 7028 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-22 15:10:11.242  INFO 7028 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-22 15:10:11.429  INFO 7028 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-22 15:10:11.445  WARN 7028 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-22 15:10:11.648  INFO 7028 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-06-22 15:10:11.773  INFO 7028 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path '/gsp'
+2019-06-22 15:10:11.773  INFO 7028 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 2.703 seconds (JVM running for 3493.611)
+2019-06-22 15:10:11.789  INFO 7028 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-06-22 15:10:33.507  INFO 7028 --- [Thread-31] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-22 15:10:33.507  INFO 7028 --- [Thread-31] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-22 15:10:34.304  INFO 7028 --- [Thread-31] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': java.sql.SQLException: Directory derbydb cannot be removed.
+2019-06-22 15:10:34.304  INFO 7028 --- [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2019-06-22 15:10:34.304  INFO 7028 --- [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2019-06-22 15:10:34.812  INFO 7028 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication on IP-C6135DB0 with PID 7028 (D:\Users\sattu\Desktop\poc-back-end\demo\target\classes started by sattu in D:\Users\sattu\Desktop\poc-back-end\demo)
+2019-06-22 15:10:34.812  INFO 7028 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2019-06-22 15:10:35.179  INFO 7028 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-22 15:10:35.179  INFO 7028 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 0ms. Found 0 repository interfaces.
+2019-06-22 15:10:35.242  INFO 7028 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6d2d9fcc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-22 15:10:35.351  INFO 7028 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2019-06-22 15:10:35.351  INFO 7028 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-22 15:10:35.351  INFO 7028 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-22 15:10:35.367  INFO 7028 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/gsp]    : Initializing Spring embedded WebApplicationContext
+2019-06-22 15:10:35.367  INFO 7028 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 547 ms
+2019-06-22 15:10:35.601  INFO 7028 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2019-06-22 15:10:35.601  WARN 7028 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2019-06-22 15:10:35.617  INFO 7028 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-3 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+2019-06-22 15:10:35.617  INFO 7028 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2019-06-22 15:10:35.617  INFO 7028 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-22 15:10:35.632  INFO 7028 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.DerbyDialect
+2019-06-22 15:10:35.632  WARN 7028 --- [restartedMain] org.hibernate.dialect.DerbyDialect       : HHH000430: The DerbyDialect dialect has been deprecated; use one of the version-specific dialects instead
+2019-06-22 15:10:35.695  INFO 7028 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-22 15:10:35.726  INFO 7028 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-22 15:10:35.835  INFO 7028 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-22 15:10:35.846  WARN 7028 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-22 15:10:36.023  INFO 7028 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-06-22 15:10:36.072  INFO 7028 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path '/gsp'
+2019-06-22 15:10:36.074  INFO 7028 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.301 seconds (JVM running for 3517.902)
+2019-06-22 15:10:36.078  INFO 7028 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-06-22 15:11:11.194  INFO 7028 --- [Thread-48] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-22 15:11:11.205  INFO 7028 --- [Thread-48] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-22 15:11:11.741  INFO 7028 --- [Thread-48] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': java.sql.SQLException: Directory derbydb cannot be removed.
+2019-06-22 15:11:11.741  INFO 7028 --- [Thread-48] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2019-06-22 15:11:11.741  INFO 7028 --- [Thread-48] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2019-06-22 15:11:12.053  INFO 7028 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication on IP-C6135DB0 with PID 7028 (D:\Users\sattu\Desktop\poc-back-end\demo\target\classes started by sattu in D:\Users\sattu\Desktop\poc-back-end\demo)
+2019-06-22 15:11:12.053  INFO 7028 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2019-06-22 15:11:12.413  INFO 7028 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-22 15:11:12.420  INFO 7028 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2019-06-22 15:11:12.475  INFO 7028 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6d2d9fcc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-22 15:11:12.585  INFO 7028 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2019-06-22 15:11:12.585  INFO 7028 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-22 15:11:12.585  INFO 7028 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-22 15:11:12.600  INFO 7028 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/gsp]    : Initializing Spring embedded WebApplicationContext
+2019-06-22 15:11:12.600  INFO 7028 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 547 ms
+2019-06-22 15:11:12.788  INFO 7028 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2019-06-22 15:11:12.788  WARN 7028 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2019-06-22 15:11:12.819  INFO 7028 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-4 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+2019-06-22 15:11:12.819  INFO 7028 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2019-06-22 15:11:12.819  INFO 7028 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-22 15:11:12.819  INFO 7028 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.DerbyDialect
+2019-06-22 15:11:12.819  WARN 7028 --- [restartedMain] org.hibernate.dialect.DerbyDialect       : HHH000430: The DerbyDialect dialect has been deprecated; use one of the version-specific dialects instead
+2019-06-22 15:11:12.913  INFO 7028 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-22 15:11:12.928  INFO 7028 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-22 15:11:13.053  INFO 7028 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-22 15:11:13.069  WARN 7028 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-22 15:11:13.225  INFO 7028 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-06-22 15:11:13.257  INFO 7028 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path '/gsp'
+2019-06-22 15:11:13.257  INFO 7028 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.235 seconds (JVM running for 3555.099)
+2019-06-22 15:11:13.272  INFO 7028 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-06-22 15:11:31.913  INFO 7028 --- [Thread-65] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-22 15:11:31.924  INFO 7028 --- [Thread-65] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-22 15:11:32.459  INFO 7028 --- [Thread-65] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': java.sql.SQLException: Directory derbydb cannot be removed.
+2019-06-22 15:11:32.459  INFO 7028 --- [Thread-65] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2019-06-22 15:11:32.459  INFO 7028 --- [Thread-65] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2019-06-22 15:11:32.803  INFO 7028 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication on IP-C6135DB0 with PID 7028 (D:\Users\sattu\Desktop\poc-back-end\demo\target\classes started by sattu in D:\Users\sattu\Desktop\poc-back-end\demo)
+2019-06-22 15:11:32.803  INFO 7028 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2019-06-22 15:11:33.147  INFO 7028 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-22 15:11:33.153  INFO 7028 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2ms. Found 0 repository interfaces.
+2019-06-22 15:11:33.241  INFO 7028 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6d2d9fcc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-22 15:11:33.334  INFO 7028 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2019-06-22 15:11:33.334  INFO 7028 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-22 15:11:33.334  INFO 7028 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-22 15:11:33.350  INFO 7028 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/gsp]    : Initializing Spring embedded WebApplicationContext
+2019-06-22 15:11:33.350  INFO 7028 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 547 ms
+2019-06-22 15:11:33.553  INFO 7028 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2019-06-22 15:11:33.553  WARN 7028 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2019-06-22 15:11:33.569  INFO 7028 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-5 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+2019-06-22 15:11:33.584  INFO 7028 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2019-06-22 15:11:33.584  INFO 7028 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-22 15:11:33.584  INFO 7028 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.DerbyDialect
+2019-06-22 15:11:33.584  WARN 7028 --- [restartedMain] org.hibernate.dialect.DerbyDialect       : HHH000430: The DerbyDialect dialect has been deprecated; use one of the version-specific dialects instead
+2019-06-22 15:11:33.631  INFO 7028 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-22 15:11:33.647  INFO 7028 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-22 15:11:33.772  INFO 7028 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-06-22 15:11:33.787  WARN 7028 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-06-22 15:11:33.928  INFO 7028 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-06-22 15:11:33.975  INFO 7028 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path '/gsp'
+2019-06-22 15:11:33.975  INFO 7028 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.203 seconds (JVM running for 3575.808)
+2019-06-22 15:11:33.975  INFO 7028 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-06-22 15:13:46.801  INFO 7028 --- [Thread-82] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-06-22 15:13:46.809  INFO 7028 --- [Thread-82] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-22 15:13:47.332  INFO 7028 --- [Thread-82] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': java.sql.SQLException: Directory derbydb cannot be removed.
+2019-06-22 15:13:47.332  INFO 7028 --- [Thread-82] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2019-06-22 15:13:47.332  INFO 7028 --- [Thread-82] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2019-06-22 15:13:47.707  INFO 7028 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication on IP-C6135DB0 with PID 7028 (D:\Users\sattu\Desktop\poc-back-end\demo\target\classes started by sattu in D:\Users\sattu\Desktop\poc-back-end\demo)
+2019-06-22 15:13:47.707  INFO 7028 --- [restartedMain] com.example.demo.DemoApplication         : No active profile set, falling back to default profiles: default
+2019-06-22 15:13:48.051  INFO 7028 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-06-22 15:13:48.144  INFO 7028 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 93ms. Found 1 repository interfaces.
+2019-06-22 15:13:48.238  INFO 7028 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6d2d9fcc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-06-22 15:13:48.332  INFO 7028 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2019-06-22 15:13:48.332  INFO 7028 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-06-22 15:13:48.332  INFO 7028 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-22 15:13:48.347  INFO 7028 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/gsp]    : Initializing Spring embedded WebApplicationContext
+2019-06-22 15:13:48.347  INFO 7028 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 640 ms
+2019-06-22 15:13:48.535  INFO 7028 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2019-06-22 15:13:48.535  WARN 7028 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+2019-06-22 15:13:48.551  INFO 7028 --- [restartedMain] com.zaxxer.hikari.pool.PoolBase          : HikariPool-6 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+2019-06-22 15:13:48.551  INFO 7028 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2019-06-22 15:13:48.566  INFO 7028 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-22 15:13:48.566  INFO 7028 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.DerbyDialect
+2019-06-22 15:13:48.566  WARN 7028 --- [restartedMain] org.hibernate.dialect.DerbyDialect       : HHH000430: The DerbyDialect dialect has been deprecated; use one of the version-specific dialects instead
+2019-06-22 15:13:48.629  INFO 7028 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-06-22 15:13:48.644  INFO 7028 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-06-22 15:13:48.894  WARN 7028 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerAdapter' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]: Factory method 'requestMappingHandlerAdapter' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcConversionService' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.format.support.FormattingConversionService]: Factory method 'mvcConversionService' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'currencyRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.example.demo.models.Currency
+2019-06-22 15:13:48.894  INFO 7028 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-06-22 15:13:49.410  INFO 7028 --- [restartedMain] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': java.sql.SQLException: Directory derbydb cannot be removed.
+2019-06-22 15:13:49.414  INFO 7028 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2019-06-22 15:13:49.415  INFO 7028 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2019-06-22 15:13:49.415  INFO 7028 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-06-22 15:13:49.426  INFO 7028 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-06-22 15:13:49.441 ERROR 7028 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerAdapter' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]: Factory method 'requestMappingHandlerAdapter' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcConversionService' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.format.support.FormattingConversionService]: Factory method 'mvcConversionService' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'currencyRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.example.demo.models.Currency
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:627) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:845) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at com.example.demo.DemoApplication.main(DemoApplication.java:10) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_212]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_212]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_212]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_212]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter]: Factory method 'requestMappingHandlerAdapter' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcConversionService' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.format.support.FormattingConversionService]: Factory method 'mvcConversionService' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'currencyRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.example.demo.models.Currency
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mvcConversionService' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.format.support.FormattingConversionService]: Factory method 'mvcConversionService' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'currencyRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.example.demo.models.Currency
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:627) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.resolveBeanReference(ConfigurationClassEnhancer.java:394) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:366) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$d81af04c.mvcConversionService(<generated>) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.getConfigurableWebBindingInitializer(WebMvcConfigurationSupport.java:602) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.getConfigurableWebBindingInitializer(WebMvcAutoConfiguration.java:503) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.requestMappingHandlerAdapter(WebMvcConfigurationSupport.java:564) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.requestMappingHandlerAdapter(WebMvcAutoConfiguration.java:450) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$d81af04c.CGLIB$requestMappingHandlerAdapter$9(<generated>) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$d81af04c$$FastClassBySpringCGLIB$$9244af3b.invoke(<generated>) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) ~[spring-core-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$d81af04c.requestMappingHandlerAdapter(<generated>) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_212]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_212]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_212]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_212]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 25 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.format.support.FormattingConversionService]: Factory method 'mvcConversionService' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'currencyRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.example.demo.models.Currency
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 51 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'currencyRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.example.demo.models.Currency
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1778) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1111) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.data.repository.support.Repositories.cacheRepositoryFactory(Repositories.java:97) ~[spring-data-commons-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.data.repository.support.Repositories.populateRepositoryFactoryInformation(Repositories.java:90) ~[spring-data-commons-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.data.repository.support.Repositories.<init>(Repositories.java:83) ~[spring-data-commons-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.data.repository.support.DomainClassConverter.setApplicationContext(DomainClassConverter.java:109) ~[spring-data-commons-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.data.web.config.SpringDataWebConfiguration.addFormatters(SpringDataWebConfiguration.java:131) ~[spring-data-commons-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurerComposite.addFormatters(WebMvcConfigurerComposite.java:81) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.addFormatters(DelegatingWebMvcConfiguration.java:78) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.mvcConversionService(WebMvcAutoConfiguration.java:476) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$d81af04c.CGLIB$mvcConversionService$6(<generated>) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$d81af04c$$FastClassBySpringCGLIB$$9244af3b.invoke(<generated>) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) ~[spring-core-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363) ~[spring-context-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$d81af04c.mvcConversionService(<generated>) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_212]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_212]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:1.8.0_212]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[na:1.8.0_212]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 52 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Not a managed type: class com.example.demo.models.Currency
+	at org.hibernate.metamodel.internal.MetamodelImpl.managedType(MetamodelImpl.java:552) ~[hibernate-core-5.3.10.Final.jar:5.3.10.Final]
+	at org.springframework.data.jpa.repository.support.JpaMetamodelEntityInformation.<init>(JpaMetamodelEntityInformation.java:74) ~[spring-data-jpa-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.data.jpa.repository.support.JpaEntityInformationSupport.getEntityInformation(JpaEntityInformationSupport.java:66) ~[spring-data-jpa-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getEntityInformation(JpaRepositoryFactory.java:201) ~[spring-data-jpa-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:151) ~[spring-data-jpa-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:134) ~[spring-data-jpa-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:65) ~[spring-data-jpa-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:305) ~[spring-data-commons-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:297) ~[spring-data-commons-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:211) ~[spring-data-commons-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.data.util.Lazy.get(Lazy.java:94) ~[spring-data-commons-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:300) ~[spring-data-commons-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:121) ~[spring-data-jpa-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1837) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1774) ~[spring-beans-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	... 77 common frames omitted
+
